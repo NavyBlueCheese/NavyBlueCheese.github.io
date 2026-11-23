@@ -1,0 +1,15 @@
+---
+title: "Research"
+listing:
+  contents: "."
+  type: default
+  fields: [date, title, subtitle]
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  feed: false
+page-layout: full
+---
+
+Papers and longer research projects, written to the standard I'd want if
+they went to a journal. Unfinished ones are marked as such.

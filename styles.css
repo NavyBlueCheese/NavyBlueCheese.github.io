@@ -1,0 +1,211 @@
+/* ============================================================
+   Typography
+   Computer Modern (CMU Serif) for body/headings — the LaTeX look,
+   fitting for a site that's half academic papers. System serif
+   fallback so nothing breaks if the CDN font is slow/blocked.
+   ============================================================ */
+
+@import url('https://fonts.cdnfonts.com/css/computer-modern-serif');
+
+:root {
+  --font-serif: "Computer Modern Serif", "CMU Serif", "Latin Modern Roman", Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-serif);
+
+  --color-bg:      #fdfdfc;
+  --color-text:    #1a1a1a;
+  --color-muted:   #6b6b6b;
+  --color-rule:    #dedcd6;
+  --color-navy:    #1c2e4a;   /* the one accent colour, used sparingly */
+  --color-navy-soft: #eef1f6;
+
+  --measure: 780px;
+}
+
+html {
+  background: var(--color-bg);
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .navbar-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  color: var(--color-text);
+}
+
+h1 { font-size: 2rem;    margin-top: 0.2em; }
+h2 { font-size: 1.35rem; margin-top: 2.4em; border-top: 1px solid var(--color-rule); border-bottom: none !important; padding-top: 0.9em; }
+h3 { font-size: 1.1rem;  margin-top: 1.8em; }
+
+p, li { font-size: 1rem; }
+
+a          { color: var(--color-navy); text-decoration: none; border-bottom: 1px solid transparent; }
+a:hover    { border-bottom-color: var(--color-navy); }
+
+code, pre  { font-family: var(--font-mono); font-size: 0.88em; }
+pre        { background: #f6f5f2; border: 1px solid var(--color-rule); border-radius: 2px; padding: 0.9em 1em; }
+
+blockquote {
+  border-left: 2px solid var(--color-navy);
+  margin-left: 0;
+  padding-left: 1.1em;
+  color: var(--color-muted);
+}
+
+hr, .rule {
+  border: none;
+  border-top: 1px solid var(--color-rule);
+  margin: 2.2em 0;
+}
+
+/* ============================================================
+   Navbar — quiet, no shadow, hairline bottom rule
+   ============================================================ */
+
+.navbar {
+  background: var(--color-bg) !important;
+  border-bottom: 1px solid var(--color-rule);
+  box-shadow: none !important;
+  font-family: var(--font-serif);
+}
+
+.navbar-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-text) !important;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.9rem !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--color-navy) !important;
+}
+
+/* the outbound "Creative Work" link reads slightly differently —
+   it's leaving the site, not part of it */
+.navbar #quarto-navbar-collapse .navbar-nav.ms-auto .nav-link {
+  color: var(--color-muted) !important;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+
+.nav-footer {
+  border-top: 1px solid var(--color-rule);
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  padding-top: 1.2em;
+}
+
+.nav-footer a { color: var(--color-muted); }
+.nav-footer a:hover { color: var(--color-navy); }
+
+/* ============================================================
+   Home page hero
+   ============================================================ */
+
+.hero {
+  padding: 1.5em 0 0.5em 0;
+}
+
+.hero .eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-navy);
+}
+
+.hero h1 {
+  margin-top: 0.3em;
+}
+
+.hero p.lede {
+  font-size: 1.1rem;
+  color: var(--color-muted);
+  max-width: 640px;
+}
+
+/* ============================================================
+   Section index cards (Research / Writing / Projects landing rows)
+   Kept as a plain list, not boxes — a broadsheet table-of-contents
+   feel rather than "card grid" default.
+   ============================================================ */
+
+.quarto-listing .quarto-post,
+.quarto-grid-item {
+  border-bottom: 1px solid var(--color-rule);
+  padding: 1.2em 0;
+}
+
+.listing-date {
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.quarto-title-banner { display: none; }
+
+.quarto-title-meta-heading { font-family: var(--font-mono); font-size: 0.75rem; }
+
+/* status / category tag pills — flat, not rounded-badge-default */
+.quarto-listing-category,
+.listing-categories .listing-category,
+.category {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-navy);
+  background: var(--color-navy-soft);
+  border-radius: 2px;
+  padding: 0.15em 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* status labels used on project/research cards, e.g. "in progress" */
+.status {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-muted);
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+  padding: 0.1em 0.5em;
+}
+
+/* External-link callout box, e.g. on About page pointing to the creative-work site */
+.outbound-box {
+  border: 1px solid var(--color-rule);
+  background: var(--color-navy-soft);
+  padding: 1.4em 1.6em;
+  margin: 1.6em 0;
+  border-radius: 2px;
+}
+
+.outbound-box a { font-weight: 700; }
+
+@media (max-width: 640px) {
+  body { font-size: 16.5px; }
+}
+
+/* callouts (e.g. the "Update" note) in the site's navy rather than Bootstrap blue */
+.callout.callout-style-simple.callout-note,
+.callout.callout-note { border-left-color: var(--color-navy) !important; }
+.callout-note .callout-icon::before { filter: grayscale(1) brightness(0.45); }

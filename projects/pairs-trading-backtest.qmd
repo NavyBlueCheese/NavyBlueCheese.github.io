@@ -1,0 +1,33 @@
+---
+title: "pairs-trading-backtest"
+subtitle: "Cointegration-based statistical arbitrage on US large caps"
+date: 2026-03-01
+---
+
+::: {.status}
+code: [github.com/NavyBlueCheese/pairs-trading-backtest](https://github.com/NavyBlueCheese/pairs-trading-backtest)
+:::
+
+A classic pairs-trading strategy in Python, tested on daily Yahoo
+Finance data for six stocks in three natural pairs: KO/PEP, XOM/CVX, and
+JPM/BAC.
+
+Pairs are chosen by cointegration, not correlation. Two stocks can be
+highly correlated day to day and still drift apart forever; cointegration
+means some combination of them is stationary, which is what makes betting
+on the spread coming back reasonable. The test is Engle–Granger: regress
+one log price on the other, then run an ADF test on the residuals.
+
+**Avoiding the usual backtest traps:**
+
+- The data is split 60/40 by time. Pair selection and the hedge ratio use
+  only the first 60%, and the backtest runs only on the last 40%.
+- The z-score's rolling mean and standard deviation (60 days) are lagged
+  one bar, so a day's spread never appears in its own normalisation.
+- Signals at the close of day *t* are filled at the open of *t+1*.
+- Costs are 0.1% per leg, 0.4% per round trip.
+
+**Trading rules:** enter when the z-score passes ±2, exit when it comes
+back inside ±0.5, stop out beyond ±3.5, and close anything still open
+after 30 days. The output reports total return, Sharpe ratio, maximum
+drawdown, and win rate, along with the equity curve and a trade log.

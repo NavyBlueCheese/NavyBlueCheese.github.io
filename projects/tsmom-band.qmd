@@ -1,0 +1,41 @@
+---
+title: "tsmom-band"
+subtitle: "Cost-aware time-series momentum on a $20 IBKR account"
+date: 2026-04-01
+---
+
+::: {.status}
+status: paper trading · code: [github.com/NavyBlueCheese/tsmom-band](https://github.com/NavyBlueCheese/tsmom-band)
+:::
+
+Long-or-flat time-series momentum across four ETFs (SPY, EFA, IEF, GLD),
+sized for a cash account of about $20 at Interactive Brokers. At that
+size IBKR's commission cap of 1% of trade value applies to every order,
+so a round trip costs 2% of the position. Most of the design is about
+not giving that money away.
+
+**The rules**, fixed in a preregistration before any backtest was run:
+
+- **Signal:** the sign of the 21-to-252-day return, per asset. Long or flat, never short.
+- **Sizing:** inverse volatility from a 60-day Ledoit–Wolf shrunk covariance, 15% annual volatility target, no leverage.
+- **Rebalance:** last trading session of each quarter, 15:45 New York time.
+- **No-trade band:** a leg only trades if its target weight differs from the current weight by more than 0.20.
+- **Costs:** IBKR Pro's tiered US-stock schedule, plus SEC and FINRA fees on sells.
+
+None of these get tuned to make a backtest look better. Parameter sweeps
+are logged as trials and the defaults stay where they are.
+
+**The prediction.** Before the account was funded, a block bootstrap of
+the training-period backtest predicted one-year P&L of about +$0.85, with
+an 80% interval of −$0.26 to +$2.37 and roughly 1.6 trades a year. The
+point of the project is calibration: does the live result land inside
+that interval?
+
+**How it's built.** Everything runs through an event-driven engine that
+only ever sees data up to the current bar, so lookahead is impossible by
+construction. The same strategy code runs in backtest and live. Money
+amounts use exact decimals, data from 2019 onward is a sealed holdout
+with a committed hash, and six kill-switch conditions each need a human
+to clear them.
+
+The paper-trading runner is currently doing its weekly cycles.

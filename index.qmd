@@ -1,0 +1,43 @@
+---
+title: ""
+pagetitle: "Nunnapat (Navy) Pulsawas"
+listing:
+  id: recent
+  contents:
+    - research
+    - writing
+    - projects
+  exclude:
+    filename: "index.qmd"
+  type: table
+  fields: [date, title]
+  date-format: "MMM YYYY"
+  sort: "date desc"
+  max-items: 6
+  sort-ui: false
+  filter-ui: false
+  table-hover: true
+---
+
+::: {.hero}
+
+# Nunnapat (Navy) Pulsawas
+
+<p class="lede">
+Mostly FX: option pricing, volatility surfaces, and what cross-border
+capital flows do to currency markets. Also some systematic-trading code,
+and the odd statistics piece when something in the news doesn't add up.
+</p>
+:::
+
+## Recently added
+
+::: {#recent}
+:::
+
+<hr class="rule">
+
+- **[Research](research/index.qmd)**. Papers and longer projects.
+- **[Writing](writing/index.qmd)**. Essays and statistical notes that aren't research.
+- **[Projects](projects/index.qmd)**. Code, backtests, and data analysis.
+- **[About](about.qmd)**. Who I am, and where the art lives.

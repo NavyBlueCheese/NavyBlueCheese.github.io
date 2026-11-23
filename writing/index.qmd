@@ -1,0 +1,15 @@
+---
+title: "Writing"
+listing:
+  contents: "."
+  type: default
+  fields: [date, title, subtitle]
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  feed: false
+page-layout: full
+---
+
+Shorter pieces: statistical write-ups, arguments, and anything else that
+isn't a research paper.

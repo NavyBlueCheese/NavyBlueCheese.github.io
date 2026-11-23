@@ -1,0 +1,36 @@
+[
+  {
+    "listing": "/writing/index.html",
+    "items": [
+      "/writing/senate-ballot-matching.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/writing/senate-ballot-matching.html",
+      "/research/cip-em-deviations.html",
+      "/research/fx-vol-surface.html",
+      "/projects/fx-vrp.html",
+      "/projects/tsmom-band.html",
+      "/projects/pairs-trading-backtest.html",
+      "/projects/g10-fx-analysis.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/fx-vrp.html",
+      "/projects/tsmom-band.html",
+      "/projects/pairs-trading-backtest.html",
+      "/projects/g10-fx-analysis.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/cip-em-deviations.html",
+      "/research/fx-vol-surface.html"
+    ]
+  }
+]

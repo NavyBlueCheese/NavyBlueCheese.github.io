@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Navy."
+  site-url: "https://navybluecheese.github.io"   # change this if you move to a custom domain
+  description: "Research, writing, and code on FX derivatives, systematic trading, and statistics."
+  favicon: favicon.svg
+
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: research/index.qmd
+        text: "Research"
+      - href: writing/index.qmd
+        text: "Writing"
+      - href: projects/index.qmd
+        text: "Projects"
+      - href: about.qmd
+        text: "About"
+    # Link out to the separate art site (its own repo, served at /art/ on the same domain)
+    right:
+      - text: "Art ↗"
+        href: "https://navybluecheese.github.io/art/"
+
+  page-footer:
+    left: "© 2026 Navy Nunnapat"   # bump this number once a year, that's it
+    right:
+      - icon: github
+        href: https://github.com/NavyBlueCheese
+      - icon: envelope
+        href: mailto:navy.nunnapat@gmail.com
+
+  page-navigation: false
+  back-to-top-navigation: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 780px
+    fontsize: 1rem
+    linkcolor: "#1c2e4a"
+
+editor: source

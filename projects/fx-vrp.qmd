@@ -1,0 +1,45 @@
+---
+title: "fx-vrp"
+subtitle: "The FX variance risk premium: jump risk, discrete hedging error, and transaction costs"
+date: 2026-05-01
+---
+
+::: {.status}
+status: in progress · code: [github.com/NavyBlueCheese/fx-vrp](https://github.com/NavyBlueCheese/fx-vrp)
+:::
+
+Currency options usually price in more variance than the market ends up
+delivering. That gap is the variance risk premium (VRP). This project
+asks two separate questions about it:
+
+1. Is the premium paid for jump and crash risk, or for ordinary
+   day-to-day (diffusive) risk?
+2. Can anyone actually collect it once delta-hedging happens at discrete
+   intervals and trading costs are realistic?
+
+The second question matters because selling a straddle and delta-hedging
+it doesn't earn the raw gap between implied and realised variance. It
+earns a gamma-weighted version of that gap,
+
+$$\Pi \approx \int_0^T \tfrac12\,\Gamma_u S_u^2\left(\sigma^2_{\text{implied}} - \sigma^2_{\text{realised},u}\right)du,$$
+
+so *when* the realised variance arrives, relative to where the option's
+gamma sits, decides the P&L.
+
+The implied leg comes from CBOE's EuroCurrency volatility index (EVZ),
+replicated from option chains with the VIX methodology. The realised
+leg is built from Dukascopy tick data over the same 30-calendar-day
+window, with both legs stamped at 16:15 New York so nothing from later in
+the day leaks into a signal.
+
+| Phase | What it covers | State |
+|:-:|---------------|:--|
+| 0 | Data reconnaissance and fixed conventions | done |
+| 1 | Simulators, tick/rates/option-chain data layer, daily chain scraper | done |
+| 2 | Realised-variance estimators, validated on simulated ground truth | done |
+| 3 | Implied variance: model-free IV, VIX replication | done |
+| 4 | The VRP series: HAR forecasts, ex-ante vs ex-post | in progress |
+| 5 | Strategy, P&L attribution, hedging-frequency study | next |
+
+Conventions, data notes, and the phase reports are in the repository's
+`docs/` folder.

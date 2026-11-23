@@ -1,0 +1,24 @@
+---
+title: "About"
+---
+
+I'm Navy, a mathematics and financial engineering student living in
+Korea. Most of what I work on is quantitative finance, mainly FX: how
+options on currencies get priced and quoted, how systematic strategies
+hold up once real trading costs are counted, and where money crossing
+borders leaves traces in the data. I'm also interested in applied machine
+learning, in finance and in accessibility. This site collects the papers,
+write-ups, and code that come out of all that.
+
+Away from the numbers I draw comics and illustrations, do graphic and
+UX/UI design, and build things for the web.
+
+::: {.outbound-box}
+**Looking for the illustrations and comics?**
+They live on [a separate site ↗](https://navybluecheese.github.io/art/).
+:::
+
+### Elsewhere
+
+- GitHub: [github.com/NavyBlueCheese](https://github.com/NavyBlueCheese)
+- Email: [navy.nunnapat@gmail.com](mailto:navy.nunnapat@gmail.com)
