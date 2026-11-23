@@ -9,14 +9,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Nunnapat (Navy) Pulsawas",
+    "title": "Hi, I’m Navy!",
     "section": "",
-    "text": "Mostly FX: option pricing, volatility surfaces, and what cross-border capital flows do to currency markets. Also some systematic-trading code, and the odd statistics piece when something in the news doesn’t add up."
+    "text": "I’m a Mathematics student currently based in Korea. I study at Korea University, with a second major in International Commerce. I’m interested in quantitative finance and machine learning, and I’m hoping to work in quant trading or AI research.\n\n\nAt the moment I’m an undergraduate researcher at the university’s Generative Intelligence Lab, where I work on diffusion models that generate stress scenarios for markets. Outside of the lab I mostly work on FX: a volatility surface engine, a study of the FX variance risk premium, and a small momentum strategy built for a $20 brokerage account. This site is where I put that work."
   },
   {
     "objectID": "index.html#recently-added",
     "href": "index.html#recently-added",
-    "title": "Nunnapat (Navy) Pulsawas",
+    "title": "Hi, I’m Navy!",
     "section": "Recently added",
     "text": "Recently added\n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\nAug 2026\n\n\nA Statistical Look at the 2024 Thai Senate Ballot-Matching Evidence\n\n\n\n\n\n\nAug 2026\n\n\nCovered Interest Parity Deviations in Emerging Market Currencies\n\n\n\n\n\n\nJun 2026\n\n\nConstruction of an Arbitrage-Checked FX Implied Volatility Surface from Delta-Quoted Market Instruments\n\n\n\n\n\n\nMay 2026\n\n\nfx-vrp\n\n\n\n\n\n\nApr 2026\n\n\ntsmom-band\n\n\n\n\n\n\nMar 2026\n\n\npairs-trading-backtest\n\n\n\n\n\n\nNo matching items\n\n\n\nResearch. Papers and longer projects.\nWriting. Essays and statistical notes that aren’t research.\nProjects. Code, backtests, and data analysis.\nAbout. Who I am, and where the art lives."
   },
@@ -144,7 +144,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m Navy, a mathematics and financial engineering student living in Korea. Most of what I work on is quantitative finance, mainly FX: how options on currencies get priced and quoted, how systematic strategies hold up once real trading costs are counted, and where money crossing borders leaves traces in the data. I’m also interested in applied machine learning, in finance and in accessibility. This site collects the papers, write-ups, and code that come out of all that.\nAway from the numbers I draw comics and illustrations, do graphic and UX/UI design, and build things for the web.\n\nLooking for the illustrations and comics? They live on a separate site ↗.\n\n\nElsewhere\n\nGitHub: github.com/NavyBlueCheese\nEmail: navy.nunnapat@gmail.com"
+    "text": "I’m Navy, a maths student at Korea University, double majoring in Mathematics and International Commerce. Most of what I work on is quantitative finance, mainly FX: how options on currencies get priced and quoted, how systematic strategies hold up once real trading costs are counted, and where money crossing borders leaves traces in the data. I’m also interested in applied machine learning, in finance and in accessibility. This site collects the papers, write-ups, and code that come out of all that.\nAway from the numbers I draw comics and illustrations, do graphic and UX/UI design, and build things for the web.\n\nLooking for the illustrations and comics? They live on a separate site ↗.\n\n\nElsewhere\n\nGitHub: github.com/NavyBlueCheese\nEmail: navy.nunnapat@gmail.com"
   },
   {
     "objectID": "writing/senate-ballot-matching.html",

@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-I'm Navy, a mathematics and financial engineering student living in
-Korea. Most of what I work on is quantitative finance, mainly FX: how
+I'm Navy, a maths student at Korea University, double majoring in
+Mathematics and International Commerce. Most of what I work on is quantitative finance, mainly FX: how
 options on currencies get priced and quoted, how systematic strategies
 hold up once real trading costs are counted, and where money crossing
 borders leaves traces in the data. I'm also interested in applied machine
