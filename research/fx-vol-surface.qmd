@@ -9,7 +9,7 @@ format:
 ---
 
 ::: {.status}
-code & notebook: [github.com/NavyBlueCheese/fx-vol-surface](https://github.com/NavyBlueCheese/fx-vol-surface)
+The code and notebook are on [GitHub](https://github.com/NavyBlueCheese/fx-vol-surface).
 :::
 
 ## Abstract

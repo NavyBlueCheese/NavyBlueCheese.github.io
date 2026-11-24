@@ -192,15 +192,11 @@ hr, .rule {
 
 /* status labels used on project/research cards, e.g. "in progress" */
 .status {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  font-size: 0.9rem;
   color: var(--color-muted);
-  border: 1px solid var(--color-rule);
-  border-radius: 2px;
-  padding: 0.1em 0.5em;
+  margin-bottom: 1.4em;
 }
+.status p { margin: 0; }
 
 /* External-link callout box, e.g. on About page pointing to the creative-work site */
 .outbound-box {
@@ -243,6 +239,6 @@ a.cv-button:hover, a.cv-button:focus-visible {
 }
 
 /* status line: keep links in normal case */
-.status a { text-transform: none; letter-spacing: 0; }
 .quarto-title .subtitle, p.subtitle { font-weight: 300; color: var(--color-muted); }
 #TOC, nav#TOC { font-size: 0.85rem; }
+.quarto-title-meta-heading { text-transform: none !important; letter-spacing: 0 !important; font-size: 0.85rem !important; color: var(--color-muted); }

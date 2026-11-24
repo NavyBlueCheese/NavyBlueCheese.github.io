@@ -5,7 +5,7 @@ date: 2026-05-01
 ---
 
 ::: {.status}
-status: in progress · code: [github.com/NavyBlueCheese/fx-vrp](https://github.com/NavyBlueCheese/fx-vrp)
+Still in progress. The code is on [GitHub](https://github.com/NavyBlueCheese/fx-vrp).
 :::
 
 Currency options usually price in more variance than the market ends up

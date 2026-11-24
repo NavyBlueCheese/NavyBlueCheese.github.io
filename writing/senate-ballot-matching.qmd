@@ -9,7 +9,7 @@ format:
 ---
 
 ::: {.status}
-code: [github.com/NavyBlueCheese/senate_collusion](https://github.com/NavyBlueCheese/senate_collusion)
+The code is on [GitHub](https://github.com/NavyBlueCheese/senate_collusion).
 :::
 
 ::: {.callout-note appearance="simple"}

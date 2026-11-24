@@ -5,7 +5,7 @@ date: 2026-02-01
 ---
 
 ::: {.status}
-code: [github.com/NavyBlueCheese/g10-fx-analysis](https://github.com/NavyBlueCheese/g10-fx-analysis)
+The code is on [GitHub](https://github.com/NavyBlueCheese/g10-fx-analysis).
 :::
 
 A statistical look at two years of daily G10 exchange rates against the

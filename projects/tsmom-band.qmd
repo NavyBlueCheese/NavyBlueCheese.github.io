@@ -5,7 +5,7 @@ date: 2026-04-01
 ---
 
 ::: {.status}
-status: paper trading · code: [github.com/NavyBlueCheese/tsmom-band](https://github.com/NavyBlueCheese/tsmom-band)
+Currently paper trading. The code is on [GitHub](https://github.com/NavyBlueCheese/tsmom-band).
 :::
 
 Long-or-flat time-series momentum across four ETFs (SPY, EFA, IEF, GLD),
