@@ -1,4 +1,6 @@
 project:
+  resources:
+    - apple-touch-icon.png
   type: website
   output-dir: docs
 
@@ -6,9 +8,11 @@ website:
   title: "Navy."
   site-url: "https://navybluecheese.github.io"   # change this if you move to a custom domain
   description: "Research, writing, and code on FX derivatives, systematic trading, and statistics."
-  favicon: favicon.svg
+  favicon: favicon-32.png
 
   navbar:
+    logo: logo.png
+    logo-alt: ""
     background: light
     pinned: true
     left:
@@ -42,6 +46,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header:
+      text: |
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     toc: false
     grid:
       body-width: 780px

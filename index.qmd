@@ -21,7 +21,7 @@ listing:
 
 ::: {.hero}
 
-# Hi, I'm Navy!
+# Hi, I'm *Navy*!
 
 <p class="lede">
 I'm a mathematics student based in Korea.
