@@ -2,20 +2,59 @@
 title: "About"
 ---
 
-I'm Navy, a maths student at Korea University, double majoring in
-Mathematics and International Commerce. Most of what I work on is quantitative finance, mainly FX: how
-options on currencies get priced and quoted, how systematic strategies
-hold up once real trading costs are counted, and where money crossing
-borders leaves traces in the data. I'm also interested in applied machine
-learning, in finance and in accessibility. This site collects the papers,
-write-ups, and code that come out of all that.
+Thank you for visiting my website!
 
-Away from the numbers I draw comics and illustrations, do graphic and
-UX/UI design, and build things for the web.
+My name is Nunnapat Pulsawas, although I usually go by Navy. I'm from
+Thailand and currently study mathematics at Korea University in South
+Korea, where I also double major in international commerce.
+
+Before university, I studied in the arts-Japanese program at Triam Udom
+Suksa School. I spent most of my school years studying languages and
+humanities, so ending up in mathematics was not exactly the path I
+expected for myself initially. However, I became increasingly interested
+in mathematics, finance, and financial engineering during high school and
+eventually decided to pursue them at university.
+
+Most of my academic interests these days are between mathematics,
+finance, and machine learning. I'm particularly interested in
+quantitative trading, FX derivatives, derivatives pricing, and
+international finance. I enjoy the mathematical side of financial
+problems, especially probability, statistics, stochastic processes, and
+mathematical modeling.
+
+I also work on machine learning, with a focus on financial applications
+and model development. In finance, I am particularly interested in using
+machine learning for derivatives and FX markets, ranging from price and
+return prediction to risk modeling and financial time series. I have
+worked with methods including tree-based models, sequential and
+time-series models, reinforcement learning, and optimization.
+
+Another area I work on is AI for accessibility. My research focuses on
+NLP, Thai language processing, and generative AI, including applications
+for hearing-impaired children in Thailand. Alongside my own projects, I
+also work on machine learning research through my professor's AI/ML lab.
+
+Outside of academics, I spend a lot of time doing MUN and competing in
+parliamentary English debate in Korea. I have also held positions in the
+Korea Intervarsity Debate Association and the Korea University Debate
+Club. I speak Thai, English, Japanese, and Korean, as well as American
+Sign Language and Thai Sign Language.
+
+Writing is another thing I have always enjoyed. I write random articles
+about both academic topics and things I find interesting outside of my
+coursework. You can find my essays and articles in the
+[Writing](writing/index.qmd) section of this website.
+
+Beyond university, I draw comics and work on graphic design. I also do
+UX/UI design and web development as a hobby.
 
 ::: {.outbound-box}
-**Looking for the illustrations and comics?**
-They live on [a separate site ↗](https://navybluecheese.github.io/art/).
+**I'm also an art student at heart!**
+
+I have been drawing for years, and creative work is still a big part of
+what I do. If you are looking for my other creative projects
+(illustrations and comics), you can find them on
+[my art website](https://navybluecheese.github.io/art/).
 :::
 
 ### Elsewhere

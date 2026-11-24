@@ -24,16 +24,16 @@ listing:
 # Hi, I'm Navy!
 
 <p class="lede">
-I'm a Mathematics student currently based in Korea. I study at Korea
-University, with a second major in International Commerce, and I'm
-mostly interested in quantitative finance and machine learning.
+I'm a mathematics student based in Korea.
 </p>
 
 <p class="lede">
-Right now I'm an undergraduate researcher working on generative models
-for financial markets. In my own time I tend to work on currency
-markets, anywhere from pricing options to testing trading strategies.
+My interests are in quantitative trading, FX derivatives, and applied
+machine learning. I work on ML applications in finance and accessibility,
+and research machine learning methods and model development.
 </p>
+
+[Download CV](files/cv.pdf){.cv-button download="CV_Nunnapat_Pulsawas.pdf"}
 :::
 
 ## Recently added
