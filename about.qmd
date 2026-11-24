@@ -12,7 +12,7 @@ Before university, I studied in the arts-Japanese program at Triam Udom
 Suksa School. I spent most of my school years studying languages and
 humanities, so ending up in mathematics was not exactly the path I
 expected for myself initially. However, I became increasingly interested
-in mathematics, finance, and financial engineering during high school and
+in mathematics and financial engineering during high school and
 eventually decided to pursue them at university.
 
 Most of my academic interests these days are between mathematics,
@@ -37,8 +37,8 @@ also work on machine learning research through my professor's AI/ML lab.
 Outside of academics, I spend a lot of time doing MUN and competing in
 parliamentary English debate in Korea. I have also held positions in the
 Korea Intervarsity Debate Association and the Korea University Debate
-Club. I speak Thai, English, Japanese, and Korean, as well as American
-Sign Language and Thai Sign Language.
+Club. I speak Thai, English, Japanese, and Korean, as well as Thai Sign
+Language.
 
 Writing is another thing I have always enjoyed. I write random articles
 about both academic topics and things I find interesting outside of my
@@ -46,7 +46,8 @@ coursework. You can find my essays and articles in the
 [Writing](writing/index.qmd) section of this website.
 
 Beyond university, I draw comics and work on graphic design. I also do
-UX/UI design and web development as a hobby.
+UX/UI design and web development as a hobby, and I love solving puzzles,
+especially ciphers and anything to do with cryptography.
 
 ::: {.outbound-box}
 **I'm also an art student at heart!**
@@ -55,6 +56,13 @@ I have been drawing for years, and creative work is still a big part of
 what I do. If you are looking for my other creative projects
 (illustrations and comics), you can find them on
 [my art website](https://navybluecheese.github.io/art/).
+
+Although I research AI and generative models as part of my academic work,
+I truly believe in the value of human-made art. To me, art is deeply
+connected to the creativity, effort, and personal expression to which
+human intelligence gives rise, qualities that I do not believe should yet
+be replaced by artificial intelligence. My own illustrations and comics
+are therefore created entirely by my very human hand.
 :::
 
 ### Elsewhere

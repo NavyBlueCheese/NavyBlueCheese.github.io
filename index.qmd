@@ -40,10 +40,3 @@ and research machine learning methods and model development.
 
 ::: {#recent}
 :::
-
-<hr class="rule">
-
-- **[Research](research/index.qmd)**. Papers and longer projects.
-- **[Writing](writing/index.qmd)**. Essays and statistical notes that aren't research.
-- **[Projects](projects/index.qmd)**. Code, backtests, and data analysis.
-- **[About](about.qmd)**. Who I am, and where the art lives.
